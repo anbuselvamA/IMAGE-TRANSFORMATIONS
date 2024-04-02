@@ -1,4 +1,4 @@
-\# IMAGE-TRANSFORMATIONS
+# IMAGE-TRANSFORMATIONS
 
 
 ## Aim
@@ -40,7 +40,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the input image
-input_image = cv2.imread("cat.jpg")
+input_image = cv2.imread("rajini.jpg")
 
 # Convert from BGR to RGB so we can plot using matplotlib
 input_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB)
@@ -85,7 +85,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'nature.jpg'  # Replace with your image URL or file path
+image_url = 'rajini.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define scale factors
@@ -116,7 +116,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = '3nat.jpg'  # Replace with your image URL or file path
+image_url = 'rajini.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define shear parameters
@@ -150,7 +150,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = '4 nature.jpg'  # Replace with your image URL or file path
+image_url = 'rajini.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Reflect the image horizontally
@@ -187,7 +187,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'nat5.jpg'  # Replace with your image URL or file path
+image_url = 'rajini.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define rotation angle in degrees
@@ -228,7 +228,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = '6nat.jpg'  # Replace with your image URL or file path
+image_url = 'rajini.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define cropping coordinates (x, y, width, height)
@@ -253,8 +253,8 @@ show_image(cropped_image)
 ## Output:
 ### i)Image Translation
 
+![Screenshot 2024-04-02 101558](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/3a3508f7-1f2e-4fcd-b98e-2b67c63eaa23)
 
-![Screenshot 2024-03-13 110746](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/548046b8-6518-42c6-9a64-189c5e04f929)
 
 <br>
 <br>
@@ -262,7 +262,8 @@ show_image(cropped_image)
 ### ii) Image Scaling
 <br>
 
-![Screenshot 2024-03-13 110756](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/29fa214d-3ccd-4d17-9b32-1867c176ea93)
+![Screenshot 2024-04-02 101643](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/12a942e8-0f0e-4681-a65e-f855e9eca9bf)
+
 
 <br>
 <br>
@@ -271,7 +272,8 @@ show_image(cropped_image)
 ### iii)Image shearing
 <br>
 
-![Screenshot 2024-03-13 110815](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/c5d288e3-b44a-4b9b-96dd-68f56cc0bc98)
+![Screenshot 2024-04-02 101651](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/5635d702-4757-4c2d-8920-8f5594064847)
+
 
 <br>
 <br>
@@ -280,7 +282,8 @@ show_image(cropped_image)
 ### iv)Image Reflection
 <br>
 
-![Screenshot 2024-03-13 110858](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/41636717-c04c-4afe-a511-3c1f098f454c)
+![Screenshot 2024-04-02 101752](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/8675e6b7-54e9-4725-9aac-981efc38efaf)
+
 
 <br>
 <br>
@@ -290,7 +293,7 @@ show_image(cropped_image)
 ### v)Image Rotation
 <br>
 
-![Screenshot 2024-03-13 110937](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/a66e4df3-1b1a-4dbe-85a1-2bd429f6369f)
+![Screenshot 2024-04-02 101804](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/f2ce487c-c0d2-4fa2-8a7e-add41d474f09)
 
 <br>
 <br>
@@ -300,7 +303,8 @@ show_image(cropped_image)
 ### vi)Image Cropping
 <br>
 
-![Screenshot 2024-03-13 110947](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/e5967a8e-fe45-4193-baa7-61240c7719be)
+![Screenshot 2024-04-02 101812](https://github.com/premalatha-sureshbabu/IMAGE-TRANSFORMATIONS/assets/120620842/27faf39e-f615-4e0e-9b72-230d30b071ec)
+
 
 <br>
 <br>
